@@ -1,0 +1,101 @@
+ .logoFill{
+                    stroke-dasharray: 970px;
+                    animation: svgAni 2s ease-in-out forwards, svgAniFill 2s .8s ease-in-out forwards;
+                }
+
+                /* @-webkit-keyframes svgAniFill{
+    0%{fill: none;}
+    100%{fill:#000;}
+} */
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         button {
+        /* Base styles */
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        border: none;
+        cursor: pointer;
+
+        /* Hide button caption text */
+        overflow: hidden;
+        color: transparent;
+
+        /* The fill animation */
+        background-color: Crimson;
+        transition: background-color 0.2s;
+
+        /* Store the SVG in a variable so it's easy to use */
+        --svg: url('data:image/svg+xml,\
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">\
+            <g stroke-linecap="round" stroke-width="4" stroke="rgb(0, 0, 0)" fill="none">\
+                <circle cx="12" cy="12" r="10"/>\
+                <path d="M7 11 H17"/>\
+            </g>\
+        </svg>');
+
+        /* Chrome, still requires prefix in 2022 */
+        -webkit-mask: var(--svg);
+
+        /* Firefox and Safari */
+        mask: var(--svg);
+    }
+
+    button:hover,
+    button:focus {
+        background-color: Turquoise;
+    }
+
+    button:active {
+        background-color: Gold;
+    }
+
+    </style>
+</head>
+<body>
+    <button type="button">I'm a cool circle button</button>
+
+    
+    <svg width="512" height="702" viewBox="0 0 512 702">
+
+<defs>
+  <mask id="mask">
+    <image xlink:href="https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d469edc4fc24e0c17c0144146a777f51&auto=format&fit=crop&w=500&q=50" />
+  </mask>
+</defs>
+
+<text 
+  mask="url(#mask)"
+  x="0" y="250"
+  font-size="100" font-family="Arial" font-weight="bold">
+  AOA 2018
+</text>
+
+</svg>
+</body>
+</html>
+
+
+logoPath = $('.logo-svgPath')
+bgFill = $('.logo-bg>img')
+logoPath.hover(function(){
+    bgFill.css({ 'animation-play-state': 'paused'})
+},function(){
+    bgFill.css({ 'animation-play-state': ' running'})
+})
+
+//텍스트 슬라이드
+/* function spaceTextTransform(){
+    const scrollTop = window.pageYOffset || window.scrollY || document.documentElement.scrollTop;
+    const offset1 = (scrollTop-document.querySelector('.main_space_text').offsetTop) *0.2;
+    
+    document.querySelector('.main_space_text').style.transform = "translateX("+ -offset1+"px)";
+    };
+    window.addEventListener('scroll',spaceTextTransform); */
