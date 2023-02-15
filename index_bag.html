@@ -1,0 +1,481 @@
+<!DOCTYPE HTML>
+<html lang='ko'>
+<head>
+	<title>FRIETAG_bag</title>
+	
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel='stylesheet' href='css/reset.css'>
+	<link rel='stylesheet' href='./css/style_bag.css'>
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="./js/script_items.js" defer></script>
+
+</head>
+<body>
+    <ul id="skip">
+		<li><a href="#header">헤더 바로가기</a></li>
+		<li><a href="#nav">메뉴 바로가기</a></li>
+		<li><a href="#content">내용 바로가기</a></li>
+	</ul>
+    <div id="wrap">
+        <nav id="nav">
+            <div class="container">
+               <div class="nav-wrap">
+                    <div class="nav-left">
+                        <h1>
+                            <a href="./index.html" title="logo">
+                                <img src="./img/logo.jpg" alt="logo-big" class="logoBig">
+                                <img src="./img/logo-small.png" alt="logo-small" class="logoSmall">
+                            </a>
+                        </h1>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="./index_bag.html" title="BAGS" class="current-item">BAGS</a></li>
+                                <li><a href="./index_acc.html" title="ACCESSORIES">ACCESSORIES</a></li>
+                                <li><a href="./index_apparel.html" title="APPAREL">APPAREL</a></li>
+                                <li><a href="javascrupt:" title="SERVICES">SERVICES</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                   <div class="nav-right">
+                        <div class="search-bar">
+                           <a href="javascrupt:" title="search">
+                                <svg version="1.1" id="search-icon" viewBox="0 0 30 30">
+                                    <path class="search-icon st0" d="M27.83,28.48l-8.14-8.81l0.16-0.15c1.96-1.92,3.18-4.6,3.18-7.56c0-5.84-4.74-10.58-10.58-10.58
+                                    S1.87,6.11,1.87,11.95S6.6,22.53,12.45,22.53c1.42,0,2.77-0.28,4.01-0.79"/>
+                                 </svg>
+                           </a>
+                            <label for="search"><input type="text" id="search" name="search" class="search-text"></label>
+                        </div>
+                        <div class="icon">
+                            <ul>
+                                <li>
+                                    <a href="javascrupt:" title="shopping">
+                                        <svg version="1.1" id="shopping-icon" x="0px" y="0px" viewBox="0 0 30 30">
+                                                <path class="shopping st0" d="M1.08,3.75c0,0,1.79,0,2.62,0s1.66,0.98,1.79,1.5l3.27,13.22C9.2,19.7,10,19.92,10.8,19.92h13.53
+                                                c0.8,0,1.6-0.23,2.03-1.45l2.55-10.33c0.05-0.21-0.1-0.4-0.32-0.4H10.16"/>
+                                                <circle class="st0" cx="12.86" cy="25.44" r="2.08"/>
+                                                <circle class="st0" cx="21.5" cy="25.44" r="2.08"/>
+                                      </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascrupt:" title="heart">
+                                        <svg version="1.1" id="heart-icon" x="0px" y="0px" viewBox="0 0 30 30">
+                                         <path class="heart st0" d="M1.9,9.42c-0.12,0.95-0.36,3.3,2.73,7.1C5.94,18.14,14.93,26.93,15,27c0,0,9.06-8.86,10.38-10.48
+                                       c3.09-3.79,2.85-6.15,2.73-7.1c-0.43-3.47-3.55-6.33-7.37-6.33c-2.39,0-4.49,1.11-5.74,2.79c-1.24-1.68-3.35-2.79-5.74-2.79
+                                       c-2.19,0-4.14,0.94-5.5,2.39"/>
+                                   </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascrupt:" title="people">
+                                        <svg version="1.1" id="people-icon" x="0px" y="0px" viewBox="0 0 30 30">
+                                        <circle class="people st0" cx="15" cy="8.65" r="6.21"/>
+                                        <path class="people st0" d="M20.5,17.01c-0.44-0.12-0.92,0.02-1.26,0.36c-1.12,1.12-2.61,1.8-4.24,1.8c-1.63,0-3.11-0.68-4.24-1.8
+                                            c-0.34-0.34-0.82-0.48-1.26-0.36c-4.33,1.17-7.54,5.49-7.54,10.64h26.08C28.04,22.49,24.83,18.18,20.5,17.01z"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bar-box">
+                            <a href="javascript:" title="bar-inner" class="bar-inner">
+                                <span class="bar bar1"></span>
+                                <span class="bar bar2"></span>
+                                <span class="bar bar3"></span>
+                            </a>
+                        </div>
+                        <div class="min-bar-box">
+                            <a href="javascript:" title="min-bar-inner" class="min-bar-inner">
+                                <span class="bar bar1"></span>
+                                <span class="bar bar2"></span>
+                                <span class="bar bar3"></span>
+                            </a>
+                        </div>
+                   </div>
+               </div>
+            </div>
+        </nav>
+        <section id="menu-blur"></section>
+        <section id="menu">
+           <div class="menu-top">
+            <div class="menu-search-bar">
+                <a href="javascrupt:" title="search">
+                     <svg version="1.1" id="search-icon" viewBox="0 0 30 30">
+                         <path class="search-icon st1" d="M27.83,28.48l-8.14-8.81l0.16-0.15c1.96-1.92,3.18-4.6,3.18-7.56c0-5.84-4.74-10.58-10.58-10.58
+                         S1.87,6.11,1.87,11.95S6.6,22.53,12.45,22.53c1.42,0,2.77-0.28,4.01-0.79"/>
+                      </svg>
+                </a>
+                 <label for="search"><input type="text" id="search" name="search" class="search-text"></label>
+             </div>
+                <div class="menu-bar-box">
+                    <a href="javascript:" title="menu-bar-inner" class="menu-bar-inner">
+                        <span class="bar bar1"></span>
+                        <span class="bar bar2"></span>
+                    </a>
+                </div>
+           </div>
+            <div class="black">
+                <ul class="menu-text">
+                  <li><a class="menus" href="./index_bag.html" title="BAGS">BAGS</a></li>
+                  <li><a class="menus" href="./index_acc.html" title="ACCESSORIES">ACCESSORIES</a></li>
+                  <li><a class="menus" href="./index_apparel.html" title="Apparel">Apparel</a></li>
+                  <li><a class="menus" href="javascript:" title="About Freitag">About Freitag</a></li>
+                  <li><a class="menus" href="javascript:" title="Services">Services</a></li>
+                  <li><a class="menus" href="javascript:" title="F-EDERATION">F-EDERATION</a></li>
+                  <li><a class="menus" href="javascript:" title="CONTACT CENTER">CONTACT CENTER</a></li>
+                  <li><a class="menus" href="javascript:" title="Stores">Stores</a></li>
+                  <li class="newsLetter">
+                    <div class="newsLetter-area">
+                        <p class="newsLetter-title">FREITAG NEWSLETTER</p>
+                        <a class="subscribe" href="javascript:" title="subscribe">SUBSCRIBE</a>
+                    </div>
+                </li>
+                </ul>
+            </div>
+        </section>
+        <main id="main">
+           <div class="section1">
+               <div class="min-container">
+                    <div class="all-bag">
+                        <h2 class="title">ALL BAGS</h2>
+                        <div class="nav">
+                            <button class="currnet">
+                              <span class="currnet-title">ALL BAGS</span>
+                              <svg version="1.1" id="current-arrow" class="current-arrow" x="0px" y="0px" viewBox="0 0 35 36">
+                            <path id="line" class="st2" d="M24.7,14.39l-6.92,7.43l-6.92-7.43"/>
+                            </svg>
+                            </button>
+                            <ul class="item-list">
+                                <li class="currnet-item"><a href="javascript:">ALL BAGS</a></li>
+                                <li><a href="javascript:">RARITIES FESTIVAL</a></li>
+                                <li><a href="javascript:">THE REAL RIP-OFF</a></li>
+                                <li><a href="javascript:">DESIGN YOUR OWN BAG</a></li>
+                                <li><a href="javascript:">Backpacks</a></li>
+                                <li><a href="javascript:">Messenger</a></li>
+                                <li><a href="javascript:">Shopper &amp; Tote Bags</a></li>
+                                <li><a href="javascript:">Sports &amp; Travel Bags</a></li>
+                                <li><a href="javascript:">Shoulder Bags</a></li>
+                                <li><a href="javascript:">Laptop Bags</a></li>
+                                <li><a href="javascript:">F-ARCHIVE</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="bag-text">Here you&ndash;ll find all currently available FREITAG bag models made from recycled truck tarps, empty PET bottles or airbags that have never seen service.<br>&nbsp;<br>From bikeable messenger bags or padded backpacks to simple &ndash; and simply smart &ndash; travel and sports bags. So, all you have to do now is decide on a model. After that, it gets really difficult: You have to choose your favorite one&ndash;off bag.</p>
+               </div>
+           </div>
+           <div class="section2">
+            <div class="min-container">
+               <div class="text-area">
+                    <h3>FREE F&ndash;EDERATION KEYHOLDER</h3>
+                    <p class="block2">
+                    <br>&ldquo;All you need is love&rdquo;, sang the Beatles way back then. And now we&rsquo;re delivering a fitting encore.<br>&nbsp;<br>From now on, there&rsquo;s an extra portion of love for everyone in the F&ndash;ederation in the form of a keyholder. While supplies last, we&rsquo;ll automatically add a free F750 F&ndash;EDERATION KEYHOLDER to any purchase of a bag (F&ndash;CUT excluded) or F&ndash;ABRIC item.<br>&nbsp;<br>Just to say, &ldquo;We love you&rdquo; and &ldquo;Thank you&rdquo; once again.<br>&nbsp;<br>(Per member max. 1 keyholder and F&ndash;CUT is excluded)</p>
+                    <div class="button"><a href="javascript:" title="button">JOIN THE F&ndash;EDERATION!</a></div>
+               </div>
+              <div class="keyholderImg"> <img src="./img/keyholder.jpg" alt="keyholder"></div>
+            </div>
+           </div>
+           <div class="section3">
+            <div class="min-container">
+               <div class="bag-section">
+                    <h2>BACKPACKS</h2>
+                    <ul class="bag-list">
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="bag-list">
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="bag-list">
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                        <li class="bag-item">
+                            <ul class="bag-item-info">
+                                <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                                <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                                <li class="info-price">&#8361;306,000</li>
+                            </ul>
+                        </li>
+                    </ul>
+               </div>
+               <div class="bag-section">
+                <h2>MESSENGER</h2>
+                <ul class="bag-list">
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/messenger01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F13 TOP CAT</a></li>
+                            <li class="info-price">&#8361;424,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/messenger02.gif" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F712 DRAGNET F-CUT</a></li>
+                            <li class="info-price">	&nbsp;</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="bag-list">
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                </ul>
+               </div>
+               <div class="bag-section">
+                <h2>BACKPACKS</h2>
+                <ul class="bag-list">
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/shopper01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F52-X MIAMI VICE</a></li>
+                            <li class="info-price">&#8361;190,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="bag-list">
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="bag-list">
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                </ul>
+              </div>
+              <div class="bag-section">
+                <h2>SHOULDER BAGS</h2>
+                <ul class="bag-list">
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/shoulderbag01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F271 MASIKURA</a></li>
+                            <li class="info-price">&#8361;160,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                </ul>
+              </div>
+              <div class="bag-section">
+                <h2>SPORTS & TRAVEL BAGS</h2>
+                <ul class="bag-list">
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/sportsbag.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F45 LOIS</a></li>
+                            <li class="info-price">&#8361;364,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                </ul>
+              </div>
+              <div class="bag-section">
+                <h2>LAPTOP BAGS</h2>
+                <ul class="bag-list">
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/laptop01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F304 MOSS
+                            </a></li>
+                            <li class="info-price">&#8361;364,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                    <li class="bag-item">
+                        <ul class="bag-item-info">
+                            <li class="info-img"><a href="javascript:"><img src="./img/backpack01.png" alt=""></a></li>
+                            <li class="info-name"><a href="javascript:" title="info-name">F201-X PETE</a></li>
+                            <li class="info-price">&#8361;306,000</li>
+                        </ul>
+                    </li>
+                </ul>
+              </div>
+            </div>
+           </div>
+        </main>
+    </div>
+</body>
+</html>
