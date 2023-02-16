@@ -1,0 +1,9 @@
+ <footer id="footer">
+            <div class="bottom-container">
+                <ul>
+                   <li>
+                    <div class="icon-area"></div>
+                   </li>
+                </ul>
+            </div>
+        </footer>
