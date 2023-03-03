@@ -1108,6 +1108,7 @@ body.menuActive {
 }
 #footer .bottom-container .info > a:hover {
   text-decoration: underline;
+  text-decoration-color: #fff;
   text-underline-position: under;
 }
 #footer .bottom-container .info > p {

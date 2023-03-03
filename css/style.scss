@@ -1029,6 +1029,7 @@ body{
                 transition: .3s ease-in-out;
                 &:hover{
                     text-decoration: underline;
+                    text-decoration-color: #fff;
                     text-underline-position : under;
                 }
             }
