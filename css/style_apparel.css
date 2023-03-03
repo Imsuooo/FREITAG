@@ -451,6 +451,7 @@ body.menuActive {
 }
 #menu .black .menu-text li:not(:last-child):hover {
   text-decoration: underline;
+  text-decoration-color: #fff;
   text-underline-offset: 10px;
 }
 #menu .black .menu-text li .menus {
