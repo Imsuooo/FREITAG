@@ -231,7 +231,6 @@ body{
     z-index: 9998;
     transform: translateX(100%);
     transition: .5s ease-in-out;
-   /*  overflow-y: scroll; */
     .menu-top{
         display: flex;
         position: absolute;
@@ -244,6 +243,7 @@ body{
             height: 40px;
             position: relative;
             margin-right: 10px;
+            border-bottom: 2px solid #fff;
             a{
                 display: inline-block;
                 width: 25px;
@@ -268,7 +268,6 @@ body{
                 .search-text{
                     @include wh;
                     border: none;
-                    border-bottom: 2px solid #fff ;
                     padding: 10px 45px 10px 20px;
                     font-size: 20px;
                     outline: none;
@@ -1754,6 +1753,19 @@ body{
     }
 }
 @media screen and (max-width:370px){
+    #menu{
+        .black{
+            .menu-text{
+                li{
+                    &.newsLetter{
+                        .newsLetter-area{
+                            flex-wrap: wrap;
+                        }
+                    }
+                }
+            }
+        }
+    }
     #main{.section{.min-container{.button-area{display: none;}}}}
     #footer{.bottom-container{.sns{display: none;}}}
 }

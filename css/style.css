@@ -272,7 +272,6 @@ body.menuActive {
   z-index: 9998;
   transform: translateX(100%);
   transition: 0.5s ease-in-out;
-  /*  overflow-y: scroll; */
 }
 #menu .menu-top {
   display: flex;
@@ -287,6 +286,7 @@ body.menuActive {
   height: 40px;
   position: relative;
   margin-right: 10px;
+  border-bottom: 2px solid #fff;
 }
 #menu .menu-top .menu-search-bar a {
   display: inline-block;
@@ -316,7 +316,6 @@ body.menuActive {
   width: 100%;
   height: 100%;
   border: none;
-  border-bottom: 2px solid #fff;
   padding: 10px 45px 10px 20px;
   font-size: 20px;
   outline: none;
@@ -1744,6 +1743,9 @@ body.menuActive {
   }
 }
 @media screen and (max-width: 370px) {
+  #menu .black .menu-text li.newsLetter .newsLetter-area {
+    flex-wrap: wrap;
+  }
   #main .section .min-container .button-area {
     display: none;
   }

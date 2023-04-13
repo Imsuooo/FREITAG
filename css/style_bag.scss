@@ -240,6 +240,7 @@ body{
             height: 40px;
             position: relative;
             margin-right: 10px;
+            border-bottom: 2px solid #fff;
             a{
                 display: inline-block;
                 width: 25px;
@@ -264,7 +265,6 @@ body{
                 .search-text{
                     @include wh;
                     border: none;
-                    border-bottom: 2px solid #fff ;
                     padding: 10px 45px 10px 20px;
                     font-size: 20px;
                     outline: none;
@@ -780,6 +780,11 @@ body{
                 }
             }
         } 
+    }
+}
+@media screen and (max-width:370px){
+    #menu{
+        .black{.menu-text{li{&.newsLetter{.newsLetter-area{flex-wrap: wrap;}}}}}
     }
 }
 @media screen and (max-height : 770px) {
