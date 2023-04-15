@@ -690,7 +690,12 @@ body.menuActive {
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-snap-type: x proximity;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   margin-left: 70px;
+}
+#main .section .main-container .contents::-webkit-scrollbar {
+  display: none;
 }
 #main .section .main-container .contents #bag-img-section {
   width: 175%;

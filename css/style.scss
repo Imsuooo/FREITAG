@@ -627,6 +627,9 @@ body{
             overflow-x: scroll;
             overflow-y: hidden;
             scroll-snap-type: x proximity;
+            &::-webkit-scrollbar{display: none;}
+            -ms-overflow-style: none;
+            scrollbar-width: none;
             margin-left: 70px;
             #bag-img-section{
                 width: calc(175%);
